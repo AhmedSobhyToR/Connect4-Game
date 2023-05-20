@@ -123,11 +123,11 @@ def OutComeSum_position(Board, Chunk):
     center_count = center_array.count(Chunk)
     OutComeSum += center_count * 3
 
-    verticalOutComeSum(Board,Chunk,OutComeSum)
+    OutComeSum += verticalOutComeSum(Board,Chunk,OutComeSum)
 
-    horizontalOutComeSum(Board,Chunk,OutComeSum)
+    OutComeSum += horizontalOutComeSum(Board,Chunk,OutComeSum)
 
-    SlashedOutComeSum(Board,Chunk,OutComeSum)
+    OutComeSum += SlashedOutComeSum(Board,Chunk,OutComeSum)
 
     return OutComeSum
 
