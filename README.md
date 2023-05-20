@@ -1,9 +1,11 @@
-This is our project in making a connect 4 game using minimax and alphabeta algorithm
-Our IDs:
+This is our project in making a connect 4 game using minimax and alphabeta algorithm.
+Our IDs are:
 
 20200536
 20200020
 20200676
+20200580
+20210616
 
 
 Project
