@@ -34,14 +34,6 @@ def main(depth):
         time.sleep(2.5)
 
 
-
-def TkinterFN():
-    while True:
-        x = 1
-
-
-
-
 if __name__ == "__main__":
 
     frame = LabelFrame(root, padx = 20)
