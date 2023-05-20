@@ -37,8 +37,8 @@ def main(depth):
 if __name__ == "__main__":
 
     frame = LabelFrame(root, padx = 20)
-    easyButton = Button(frame, text = "Easy", padx = 20, pady = 20, command=lambda: main(3))
-    mediumButton = Button(frame , text = "Medium",padx = 20, pady = 20, command=lambda: main(4))
+    easyButton = Button(frame, text = "Easy", padx = 20, pady = 20, command=lambda: main(4))
+    mediumButton = Button(frame , text = "Medium",padx = 20, pady = 20, command=lambda: main(3))
     hardButton = Button(frame ,text = "Hard", padx = 20, pady = 20, command=lambda: main(5))
     frame.grid(row = 0, column = 0, padx = 30)
     easyButton.pack()
